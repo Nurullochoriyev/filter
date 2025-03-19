@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>abaut new</title>
+</head>
+<body>
+<div class="card" style="width: 18rem;">
+    {% if item.photo %}
+    <img src="{{item.photo.url}}" alt="" width="350">
+    {% else %}
+    <img src="http://picsum.photos/200" alt="" width="350">
+    {% endif %}
+    <div class="card-body">
+        <h5 class="card-title">{{new.title}}</h5>
+        <p class="card-text">{{new.context}}
+            </p>
+        <a href="" class="btn btn-primary">batafsil</a>
+    </div>
+</div>
+</body>
+</html>
